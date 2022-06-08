@@ -20,7 +20,7 @@ public class Hotel {
     }
     
     public String getFacturacio(){
-        
+        //t'has passat una miqueta nomes bernat 
         double totalImports=0;
         double totalDobles=0, totalTriples=0, totalSuites=0;
         double preu;
