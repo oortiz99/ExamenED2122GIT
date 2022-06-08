@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="DESKTOP-ETSQKAP" name="examenuf2.refactoring.HotelTest" skipped="0" tests="1" time="0.136" timestamp="2022-06-08T18:18:13">
+  <properties>
+    <property name="netbeans.autoupdate.country" value="ES" />
+    <property name="libs.Appache_XML.maven-pom" value="" />
+    <property name="ant.file.ExamenUF2.2-impl" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\nbproject\build-impl.xml" />
+    <property name="javac.test.classpath" value=":build/classes:C:/Users/oscar/Desktop/ExamenED/ExamenUF2.2/lib/junit_4/junit-4.10.jar" />
+    <property name="libs.junit.javadoc" value="C:/Users/oscar/Desktop/ExamenED/ExamenUF2.2/lib/junit/junit-3.8.2-api.zip" />
+    <property name="javac.test.sourcepath" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\build\empty" />
+    <property name="libs.JDBC_Oracle.classpath" value="C:\Users\oscar\Desktop\Librerias\ojdbc8_21.3.jar" />
+    <property name="javac.includes" value="examenuf2/refactoring/HotelTest.java" />
+    <property name="ant.core.lib" value="C:\netbeans\extide\ant\lib\ant.jar" />
+    <property name="libs.XQJ.javadoc" value="" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="user.dir" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2" />
+    <property name="java.vm.version" value="10.0.1+10" />
+    <property name="libs.eclipselinkmodelgen.src" value="" />
+    <property name="javadoc.notree" value="false" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="libs.Hibernate5.4.29.maven-pom" value="" />
+    <property name="libs.XQJ-Oracle.classpath" value="" />
+    <property name="javac.profile.cmd.line.arg" value="" />
+    <property name="jdk.home" value="C:\Program Files\Java\jdk-10.0.1" />
+    <property name="libs.Commons_2_5.src" value="" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="do.archive+manifest.available" value="true" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="have.tests" value="true" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="libs.hamcrest.classpath" value="C:\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="libs.XQJ-BaseX.maven-pom" value="" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="libs.XQJ.classpath" value="C:\Users\oscar\Desktop\Librerias netbeans\xqjapi.jar" />
+    <property name="os.name" value="Windows 10" />
+    <property name="test.class" value="examenuf2.refactoring.HotelTest" />
+    <property name="ap.proc.none.internal" value="" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="libs.testng.src" value="" />
+    <property name="libs.Apache_Commons_IO_2.11.0.src" value="" />
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/" />
+    <property name="libs.jaxb.maven-pom" value="" />
+    <property name="libs.eclipselink.src" value="" />
+    <property name="os.arch" value="amd64" />
+    <property name="user.name" value="oscar" />
+    <property name="copylibs.rebase" value="true" />
+    <property name="libs.Sedna_3.5.161.src" value="" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner examenuf2.refactoring.HotelTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\build\test\results\TEST-examenuf2.refactoring.HotelTest.xml crashfile=C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\build\junitvmwatcher13337442130384529015.properties propsfile=C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\build\junit2691311296920087113.properties" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="manifest.encoding" value="windows-1250" />
+    <property name="ap.supported.internal" value="true" />
+    <property name="java.failonerror" value="true" />
+    <property name="run.modulepath" value="" />
+    <property name="libs.XQJ.src" value="" />
+    <property name="libs.jaxws21.javadoc" value="C:\netbeans\java\docs\jaxws-api-doc.zip" />
+    <property name="jdk.debug" value="release" />
+    <property name="includes" value="**" />
+    <property name="libs.XQJ_Sedna.maven-pom" value="" />
+    <property name="user.country" value="ES" />
+    <property name="libs.XQJ_eXist-db.maven-pom" value="" />
+    <property name="manifest.file" value="manifest.mf" />
+    <property name="javadoc.encoding" value="windows-1250" />
+    <property name="javac.classpath" value="" />
+    <property name="libs.spring-framework400.classpath" value="C:\netbeans\ide\modules\org-apache-commons-logging.jar;C:\netbeans\java\modules\ext\cglib-2.2.jar;C:\netbeans\java\modules\ext\spring-4\spring-aop-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-aspects-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-beans-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-build-src-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-context-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-context-support-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-core-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-expression-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-framework-bom-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-instrument-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-instrument-tomcat-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-jdbc-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-jms-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-messaging-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-orm-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-oxm-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-test-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-tx-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-web-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-webmvc-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-webmvc-portlet-4.0.1.RELEASE.jar;C:\netbeans\java\modules\ext\spring-4\spring-websocket-4.0.1.RELEASE.jar" />
+    <property name="debug-transport" value="dt_shmem" />
+    <property name="netbeans.home" value="C:\NetBeans\platform" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="libs.XQJ_Sedna.javadoc" value="" />
+    <property name="javac.modulepath" value="" />
+    <property name="test.includes" value="examenuf2/refactoring/HotelTest.java" />
+    <property name="netbeans.dynamic.classpath" value="C:\NetBeans\platform\core\asm-all-5.0.1.jar;C:\NetBeans\platform\core\core-base.jar;C:\NetBeans\platform\core\core.jar;C:\NetBeans\platform\core\org-netbeans-libs-asm.jar;C:\NetBeans\platform\core\org-openide-filesystems-compat8.jar;C:\NetBeans\platform\core\org-openide-filesystems.jar;C:\NetBeans\nb\core\org-netbeans-upgrader.jar;C:\NetBeans\nb\core\locale\core_nb.jar" />
+    <property name="java.vm.specification.version" value="10" />
+    <property name="plugin.manager.check.updates" value="false" />
+    <property name="libs.sedna.maven-pom" value="" />
+    <property name="netbeans.productversion" value="Apache NetBeans IDE Dev (Build incubator-netbeans-release-302-on-20180517)" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="do.archive" value="true" />
+    <property name="netbeans.autoupdate.language" value="es" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="libs.Appache_XML.src" value="" />
+    <property name="jar.index.metainf" value="false" />
+    <property name="javac.debug" value="true" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="file.separator" value="\" />
+    <property name="javac.includesfile.binary" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\null1195969710" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="libs.JDBC_Oracle.src" value="" />
+    <property name="mkdist.disabled" value="false" />
+    <property name="javac.test.processorpath" value=":build/classes:C:/Users/oscar/Desktop/ExamenED/ExamenUF2.2/lib/junit_4/junit-4.10.jar" />
+    <property name="netbeans.buildnumber" value="incubator-netbeans-release-302-on-20180517" />
+    <property name="user.variant" value="" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="libs.Hibernate5.4.29.src" value="" />
+    <property name="libs.eclipselinkmodelgen.classpath" value="C:\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.modelgen.processor-2.5.2.jar" />
+    <property name="libs.JDBC_MySQL.javadoc" value="" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="libs.junit.classpath" value="C:/Users/oscar/Desktop/ExamenED/ExamenUF2.2/lib/junit/junit-3.8.2.jar" />
+    <property name="libs.jaxb.javadoc" value="C:\netbeans\ide\docs\jaxb-api-2.2.5-javadoc.jar" />
+    <property name="libs.BaseX_9.4.6.maven-pom" value="" />
+    <property name="javac.includes.binary" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\build\test\classes\examenuf2\refactoring\HotelTest.class" />
+    <property name="libs.junit_4.src" value="C:/Users/oscar/Desktop/ExamenED/ExamenUF2.2/lib/junit_4/junit-4.10-sources.jar" />
+    <property name="ant.home" value="C:\netbeans\extide\ant" />
+    <property name="libs.Appache_XML.classpath" value="C:\Users\oscar\Desktop\Material_Examen\commons-io-2.5.jar" />
+    <property name="libs.testng.classpath" value="C:\netbeans\platform\modules\ext\testng-6.8.1-dist.jar" />
+    <property name="libs.jdom2.src" value="" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="ant.java.version" value="9" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files\Java\jdk-10.0.1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\WireGuard\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\dotnet\;C:\Users\oscar\AppData\Local\Microsoft\WindowsApps;C:\Users\oscar\.dotnet\tools;." />
+    <property name="javadoc.author" value="false" />
+    <property name="libs.BaseX_9.4.6.javadoc" value="" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="libs.spring-framework400.src" value="" />
+    <property name="libs.BaseX_9.4.6.src" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="basedir" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2" />
+    <property name="libs.jpa20-persistence.maven-pom" value="" />
+    <property name="jar.compress" value="false" />
+    <property name="path.separator" value=";" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="libs.junit_4.prop-maven-dependencies" value="junit:junit:4.10:jar" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="libs.jaxws21.classpath" value="C:\netbeans\java\modules\ext\jaxws22\FastInfoset.jar;C:\netbeans\java\modules\ext\jaxws22\gmbal-api-only.jar;C:\netbeans\java\modules\ext\jaxws22\ha-api.jar;C:\netbeans\java\modules\ext\jaxws22\javax.mail_1.4.jar;C:\netbeans\java\modules\ext\jaxws22\jaxws-rt.jar;C:\netbeans\java\modules\ext\jaxws22\jaxws-tools.jar;C:\netbeans\java\modules\ext\jaxws22\management-api.jar;C:\netbeans\java\modules\ext\jaxws22\mimepull.jar;C:\netbeans\java\modules\ext\jaxws22\policy.jar;C:\netbeans\java\modules\ext\jaxws22\saaj-impl.jar;C:\netbeans\java\modules\ext\jaxws22\stax-ex.jar;C:\netbeans\java\modules\ext\jaxws22\stax2-api.jar;C:\netbeans\java\modules\ext\jaxws22\streambuffer.jar;C:\netbeans\java\modules\ext\jaxws22\woodstox-core-asl.jar;C:\netbeans\java\modules\ext\jaxws22\api\jaxws-api.jar;C:\netbeans\java\modules\ext\jaxws22\api\jsr181-api.jar;C:\netbeans\java\modules\ext\jaxws22\api\javax.annotation.jar;C:\netbeans\java\modules\ext\jaxws22\api\saaj-api.jar;C:\netbeans\ide\modules\ext\jaxb\activation.jar;C:\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="compile.on.save" value="true" />
+    <property name="apple.awt.graphics.UseQuartz" value="true" />
+    <property name="user.language" value="es" />
+    <property name="testng.mode" value="testng" />
+    <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
+    <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="org.netbeans.io.suspend" value="0" />
+    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
+    <property name="manifest.available" value="true" />
+    <property name="libs.spring-framework300.maven-pom" value="" />
+    <property name="ant.project.invoked-targets" value="test-single" />
+    <property name="run.test.classpath" value=":build/classes:C:/Users/oscar/Desktop/ExamenED/ExamenUF2.2/lib/junit_4/junit-4.10.jar:build/test/classes" />
+    <property name="test.binaryexcludes" value="" />
+    <property name="sun.java2d.dpiaware" value="true" />
+    <property name="libs.JDBC_Oracle.javadoc" value="" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="java.class.version" value="54.0" />
+    <property name="libs.eclipselink.javadoc" value="C:\netbeans\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="platforms.JDK_1.8.compiler" value="modern" />
+    <property name="user.properties.file" value="C:\Users\oscar\AppData\Roaming\NetBeans\dev\build.properties" />
+    <property name="libs.XQJ-BaseX.javadoc" value="" />
+    <property name="libs.Commons_2_5.maven-pom" value="" />
+    <property name="runtime.encoding" value="windows-1250" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="libs.commons.maven-pom" value="" />
+    <property name="libs.JAXB-ENDORSED.javadoc" value="" />
+    <property name="libs.JWSAntTasks.classpath" value="C:\netbeans\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="libs.spring-framework300.src" value="" />
+    <property name="empty.dir" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\build\empty" />
+    <property name="test.binarytestincludes" value="" />
+    <property name="javadoc.preview" value="true" />
+    <property name="libs.jpa20-persistence.javadoc" value="C:\netbeans\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="java.home" value="C:\Program Files\Java\jdk-10.0.1" />
+    <property name="debug.test.classpath" value=":build/classes:C:/Users/oscar/Desktop/ExamenED/ExamenUF2.2/lib/junit_4/junit-4.10.jar:build/test/classes" />
+    <property name="libs.JDBC_Oracle.maven-pom" value="" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="annotation.processing.run.all.processors" value="true" />
+    <property name="ant.project.default-target" value="default" />
+    <property name="libs.XQJ_Sedna.classpath" value="C:\Users\oscar\Desktop\Librerias netbeans\sedna-xqj-1.0.0.jar;C:\Users\oscar\Desktop\Librerias netbeans\xqj2-0.0.1.jar" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="libs.jdom2.classpath" value="C:\Users\oscar\Desktop\carpetas\DAM2\libreries\jdom-2.0.6.1\jdom-2.0.6.1-contrib-sources.jar;C:\Users\oscar\Desktop\carpetas\DAM2\libreries\jdom-2.0.6.1\jdom-2.0.6.1-contrib.jar;C:\Users\oscar\Desktop\carpetas\DAM2\libreries\jdom-2.0.6.1\jdom-2.0.6.1-javadoc.jar;C:\Users\oscar\Desktop\carpetas\DAM2\libreries\jdom-2.0.6.1\jdom-2.0.6.1-junit-sources.jar;C:\Users\oscar\Desktop\carpetas\DAM2\libreries\jdom-2.0.6.1\jdom-2.0.6.1-junit.jar;C:\Users\oscar\Desktop\carpetas\DAM2\libreries\jdom-2.0.6.1\jdom-2.0.6.1-sources.jar;C:\Users\oscar\Desktop\carpetas\DAM2\libreries\jdom-2.0.6.1\jdom-2.0.6.1.jar" />
+    <property name="libs.XQJ-BaseX.src" value="" />
+    <property name="libraries.dir.nativedirsep" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\lib" />
+    <property name="ant.file.type.ExamenUF2.2" value="file" />
+    <property name="netbeans.extbrowser.manual_chrome_plugin_install" value="yes" />
+    <property name="platforms.JDK_1.8.bootclasspath" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar" />
+    <property name="libs.junit_4.javadoc" value="C:/Users/oscar/Desktop/ExamenED/ExamenUF2.2/lib/junit_4/junit-4.10-javadoc.jar" />
+    <property name="javac.test.modulepath" value="" />
+    <property name="run.classpath" value=":build/classes" />
+    <property name="libs.XQJ-Oracle.maven-pom" value="" />
+    <property name="jna.boot.library.name" value="jnidispatch-440" />
+    <property name="libs.XQJ-Oracle.javadoc" value="" />
+    <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="libs.XQJ_eXist-db.src" value="" />
+    <property name="annotation.processing.enabled.in.editor" value="false" />
+    <property name="nb.native.filechooser" value="false" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="javac.deprecation" value="false" />
+    <property name="javadoc.use" value="true" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="javac.processorpath" value="" />
+    <property name="libs.hamcrest.maven-pom" value="" />
+    <property name="javac.compilerargs" value="" />
+    <property name="libs.XQJ.maven-pom" value="" />
+    <property name="ant.file" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\build.xml" />
+    <property name="libs.Sedna_3.5.161.classpath" value="C:\Users\oscar\Desktop\Librerias netbeans\sednadriver.jar" />
+    <property name="libs.Apache_Commons_IO_2.11.0.classpath" value="C:\Users\oscar\Desktop\carpetas\DAM2\libreries\commons-io-2.5\commons-io-2.5-javadoc.jar;C:\Users\oscar\Desktop\carpetas\DAM2\libreries\commons-io-2.5\commons-io-2.5.jar" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="netbeans.user" value="C:\Users\oscar\AppData\Roaming\NetBeans\dev" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\oscar\AppData\Local\Temp\" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="junit.available" value="true" />
+    <property name="endorsed.classpath.cmd.line.arg" value="" />
+    <property name="jna.loaded" value="true" />
+    <property name="libraries.basename" value="nblibraries" />
+    <property name="org.openide.awt.ActionReference.completion" value="org.netbeans.modules.apisupport.project.layers.PathCompletions" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin" />
+    <property name="have.sources" value="true" />
+    <property name="libs.hamcrest.javadoc" value="" />
+    <property name="debug.classpath" value=":build/classes" />
+    <property name="javadoc.private" value="false" />
+    <property name="test.src.dir" value="test" />
+    <property name="java.vendor.version" value="18.3" />
+    <property name="ap.processors.internal" value="" />
+    <property name="meta.inf.dir" value="src/META-INF" />
+    <property name="javadoc.encoding.used" value="windows-1250" />
+    <property name="libs.jdom2.javadoc" value="C:\Users\oscar\Desktop\jdom-2.0.6\jdom-2.0.6-javadoc.jar" />
+    <property name="libs.Apache_Commons_IO_2.11.0.javadoc" value="" />
+    <property name="libs.sedna.src" value="" />
+    <property name="dist.jar" value="dist/ExamenUF2.2.jar" />
+    <property name="libs.spring-framework400.maven-pom" value="" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="debug.test.modulepath" value="" />
+    <property name="ant.project.name" value="ExamenUF2.2" />
+    <property name="netbeans.hash.code" value="unique=08f83e5ed-83e3-44b2-8575-d37011be7286_56abdd04-fe0b-4059-8856-8ac67a612965" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\oscar\AppData\Roaming\NetBeans" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="libs.spring-framework400.javadoc" value="" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="libs.Hibernate5.4.29.classpath" value="C:\Users\oscar\Desktop\Librerias\hibernate-release-5.4.29.Final\lib\required\hibernate-core-5.4.29.Final.jar" />
+    <property name="user.home" value="C:\Users\oscar" />
+    <property name="libs.XQJ-Oracle.src" value="" />
+    <property name="annotation.processing.processors.list" value="" />
+    <property name="sun.zip.disableMemoryMapping" value="true" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="jar.index" value="false" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="libs.spring-framework300.javadoc" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="libs.CopyLibs.prop-version" value="3.0" />
+    <property name="do.archive+main.class.available" value="true" />
+    <property name="libraries.dir" value="C:/Users/oscar/Desktop/ExamenED/ExamenUF2.2/lib" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.javac-api.classpath" value="" />
+    <property name="java.version" value="10.0.1" />
+    <property name="run.jvmargs.ide" value="" />
+    <property name="javadoc.version" value="false" />
+    <property name="javac.processormodulepath" value="" />
+    <property name="ant.file.ExamenUF2.2" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\build.xml" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="libs.XQJ-BaseX.classpath" value="C:\Users\oscar\Desktop\Librerias netbeans\basex-xqj-1.4.0.jar;C:\Users\oscar\Desktop\Librerias netbeans\xqj2-0.2.0.jar" />
+    <property name="platform.java" value="C:\Program Files\Java\jdk-10.0.1/bin/java" />
+    <property name="source.encoding" value="windows-1250" />
+    <property name="ap.cmd.line.internal" value="" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
+    <property name="libs.JDBC_MySQL.maven-pom" value="" />
+    <property name="libs.eclipselinkmodelgen.javadoc" value="" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="annotation.processing.processor.options" value="" />
+    <property name="libs.testng.maven-pom" value="" />
+    <property name="libs.jaxb.src" value="" />
+    <property name="work.dir" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2" />
+    <property name="libs.jaxb.classpath" value="C:\netbeans\ide\modules\ext\jaxb\jaxb-impl-2.2.5-2.jar;C:\netbeans\ide\modules\ext\jaxb\jaxb-xjc-2.2.5-2.jar;C:\netbeans\ide\modules\ext\jaxb\jaxb1-impl-2.2.5-2.jar;C:\netbeans\ide\modules\ext\jaxb\activation.jar;C:\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="do.depend" value="false" />
+    <property name="libs.Hibernate5.4.29.javadoc" value="" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="libs.XQJ_eXist-db.javadoc" value="" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="javac.source" value="1.8" />
+    <property name="java.version.date" value="2018-04-17" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.specification.version" value="10" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="libraries.path" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\lib\nblibraries.properties" />
+    <property name="libs.Appache_XML.javadoc" value="" />
+    <property name="nb.junit.batch" value="true" />
+    <property name="junit.forkmode" value="perTest" />
+    <property name="netbeans.logger.console" value="true" />
+    <property name="libs.XQJ_eXist-db.classpath" value="C:\Users\oscar\Desktop\Librerias netbeans\exist-xqj-1.0.1.jar;C:\Users\oscar\Desktop\Librerias netbeans\xqj2-0.0.1.jar" />
+    <property name="javac.target" value="1.8" />
+    <property name="built-jar.properties" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\build\built-jar.properties" />
+    <property name="libs.sedna.javadoc" value="C:\Users\oscar\Desktop\Librerias\sedna\javadoc" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="src.dir" value="src" />
+    <property name="javac.test.compilerargs" value="" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="annotation.processing.enabled" value="true" />
+    <property name="libs.jpa20-persistence.src" value="" />
+    <property name="libs.junit.prop-maven-dependencies" value="junit:junit:3.8.2:jar" />
+    <property name="ignore.failing.tests" value="true" />
+    <property name="libs.Sedna_3.5.161.javadoc" value="" />
+    <property name="dist.dir" value="dist" />
+    <property name="ant.file.type.ExamenUF2.2-impl" value="file" />
+    <property name="testng.debug.mode" value="" />
+    <property name="javac.fork" value="false" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="default.javac.source" value="10" />
+    <property name="libs.sedna.classpath" value="C:\Users\oscar\Desktop\Librerias\sedna\sednadriver.jar" />
+    <property name="debug-transport-by-os" value="dt_shmem" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="run.test.jvmargs" value="" />
+    <property name="libs.commons.src" value="" />
+    <property name="java.runtime.version" value="10.0.1+10" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="libs.JDBC_MySQL.src" value="" />
+    <property name="default.javac.target" value="10" />
+    <property name="libs.junit_4.classpath" value="C:/Users/oscar/Desktop/ExamenED/ExamenUF2.2/lib/junit_4/junit-4.10.jar" />
+    <property name="user.timezone" value="" />
+    <property name="nb.junit.single" value="false" />
+    <property name="libs.junit_4.displayName" value="JUnit 4.10" />
+    <property name="libs.BaseX_9.4.6.classpath" value="C:\Users\oscar\Desktop\Librerias netbeans\BaseX.jar" />
+    <property name="netbeans.dirs" value="C:\NetBeans\nb;C:\NetBeans\ergonomics;C:\NetBeans\ide;C:\NetBeans\extide;C:\NetBeans\java;C:\NetBeans\apisupport;C:\NetBeans\webcommon;C:\NetBeans\websvccommon;C:\NetBeans\enterprise;C:\NetBeans\mobility;C:\NetBeans\profiler;C:\NetBeans\python;C:\NetBeans\php;C:\NetBeans\identity;C:\NetBeans\harness;C:\NetBeans\cnd;C:\NetBeans\cndext;C:\NetBeans\dlight;C:\NetBeans\groovy;C:\NetBeans\extra;C:\NetBeans\javacard;C:\NetBeans\javafx" />
+    <property name="libs.Commons_2_5.javadoc" value="" />
+    <property name="libs.absolutelayout.classpath" value="C:\Users\oscar\Desktop\carpetas\DAM2\ester\Uf5\commons-io-2.5" />
+    <property name="excludes" value="" />
+    <property name="libs.jdom2.maven-pom" value="" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="java.class.path" value="C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\build\classes;C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\lib\junit_4\junit-4.10.jar;C:\Users\oscar\Desktop\ExamenED\ExamenUF2.2\build\test\classes;C:\netbeans\extide\ant\lib\ant-launcher.jar;C:\netbeans\extide\ant\lib\ant.jar;C:\netbeans\extide\ant\lib\ant-junit.jar;C:\netbeans\extide\ant\lib\ant-junit4.jar" />
+    <property name="libs.XQJ_Sedna.src" value="" />
+    <property name="do.mkdist" value="true" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="libs.jpa20-persistence.classpath" value="C:\netbeans\java\modules\ext\eclipselink\javax.persistence-2.1.0.jar" />
+    <property name="os.version" value="10.0" />
+    <property name="application.args" value="" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="main.class.available" value="true" />
+    <property name="sun.desktop" value="windows" />
+    <property name="run.test.modulepath" value="" />
+    <property name="nb.internal.action.name" value="test.single" />
+    <property name="libs.commons.javadoc" value="" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="C:\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="libs.eclipselink.classpath" value="C:\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.core-2.5.2.jar;C:\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.asm-2.5.2.jar;C:\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.antlr-2.5.2.jar;C:\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa-2.5.2.jar;C:\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql-2.5.2.jar;C:\netbeans\java\modules\ext\eclipselink\javax.persistence-2.1.0.jar" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="libs.junit.displayName" value="JUnit 3.8.2" />
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;" />
+    <property name="libs.CopyLibs.classpath" value="C:/Users/oscar/Desktop/ExamenED/ExamenUF2.2/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.spring-framework300.classpath" value="C:\netbeans\ide\modules\org-apache-commons-logging.jar;C:\netbeans\java\modules\ext\cglib-2.2.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-build-src-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-framework-bom-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.7.RELEASE.jar;C:\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.7.RELEASE.jar" />
+    <property name="libs.hamcrest.src" value="" />
+    <property name="run.jvmargs" value="" />
+    <property name="dist.archive.excludes" value="" />
+    <property name="libs.JAXB-ENDORSED.src" value="" />
+    <property name="libs.testng.javadoc" value="C:\netbeans\platform\docs\testng-6.8.1-javadoc.zip" />
+    <property name="platforms.JDK_1.8.home" value="C:\Program Files\Java\jdk1.8.0_281" />
+    <property name="libs.PostgreSQLDriver.classpath" value="C:\netbeans\ide\modules\ext\postgresql-9.4.1209.jar" />
+    <property name="user.script" value="" />
+    <property name="libs.Sedna_3.5.161.maven-pom" value="" />
+    <property name="libs.Apache_Commons_IO_2.11.0.maven-pom" value="" />
+    <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
+    <property name="main.class" value="examenuf2.pkg2.aillament.ExamenUF22" />
+    <property name="build.dir" value="build" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="libs.CopyLibs.displayName" value="CopyLibs Task" />
+    <property name="libs.JDBC_MySQL.classpath" value="C:\Users\oscar\Desktop\Librerias\mysql-connector-java-5.1.41-bin_JDJ8-7-6.jar" />
+    <property name="debug.modulepath" value="" />
+    <property name="libs.Commons_2_5.classpath" value="C:\Users\oscar\Desktop\commons-io-2.5" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="libs.commons.classpath" value="C:\Users\oscar\Desktop\commons-io-2.8.0\commons-io-2.8.0\commons-io-2.8.0-javadoc.jar;C:\Users\oscar\Desktop\commons-io-2.8.0\commons-io-2.8.0\commons-io-2.8.0-sources.jar;C:\Users\oscar\Desktop\commons-io-2.8.0\commons-io-2.8.0\commons-io-2.8.0-test-sources.jar;C:\Users\oscar\Desktop\commons-io-2.8.0\commons-io-2.8.0\commons-io-2.8.0-tests.jar;C:\Users\oscar\Desktop\commons-io-2.8.0\commons-io-2.8.0\commons-io-2.8.0.jar" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="jdkBug6558476" value="false" />
+    <property name="platform.active" value="default_platform" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+  </properties>
+  <testcase classname="examenuf2.refactoring.HotelTest" name="testGetFacturacio" time="0.021" />
+  <system-out><![CDATA[> Facturació pendent: 
+	-666:(doble+MP),	 nits d'estança:3,	 preu total 335.0€ 
+	-333:(triple+PC),	 nits d'estança:1,	 preu total 260.0€ 
+	-601:(doble+SA),	 nits d'estança:3,	 preu total 305.0€ 
+	-100:(suite+PC),	 nits d'estança:1,	 preu total 670.0€ 
+	-301:(triple+AD),	 nits d'estança:3,	 preu total 450.0€ 
+	-303:(triple+AD),	 nits d'estança:6,	 preu total 750.0€ 
+=========================================================
+ Total dobles:	640.0€ 
+ Total triples:	1460.0€ 
+ Total suites:	670.0€ 
+=========================================================
+ Total:	2770.0€ 
+=========================================================
+.
+
+********************************************************
+
+> Facturació pendent: 
+	-666:(doble+MP),	 nits d'estança:3,	 preu total 335.0€ 
+	-333:(triple+PC),	 nits d'estança:1,	 preu total 260.0€ 
+	-601:(doble+SA),	 nits d'estança:3,	 preu total 305.0€ 
+	-100:(suite+PC),	 nits d'estança:1,	 preu total 670.0€ 
+	-301:(triple+AD),	 nits d'estança:3,	 preu total 450.0€ 
+	-303:(triple+AD),	 nits d'estança:6,	 preu total 750.0€ 
+=========================================================
+ Total dobles:	640.0€ 
+ Total triples:	1460.0€ 
+ Total suites:	670.0€ 
+=========================================================
+ Total:	2770.0€ 
+=========================================================
+.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
